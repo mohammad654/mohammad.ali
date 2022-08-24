@@ -1,0 +1,87 @@
+/* -----------------------------------------------------------------------------
+Sass
+ -----------------------------------------------------------------------------
+*/
+/* -----------------------------------------------------------------------------
+This file contains all application-wide Sass variables.
+-----------------------------------------------------------------------------
+*/
+/* -----------------------------------------------------------------------------
+This file contains all application-wide Sass functions.111111111
+-----------------------------------------------------------------------------
+*/
+/*-----------------------------------------------------------------------------
+   This file contains all application-wide Sass mixins.
+-----------------------------------------------------------------------------
+*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/**
+ * This file contains very basic styles.
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* -----------------------------------------------------------------------------
+ This file contains all @font-face declarations, if any.
+-----------------------------------------------------------------------------
+*/
+/*
+ * Basic typography style for copy text
+ */
+/* -----------------------------------------------------------------------------
+This file contains all styles related to the header of the site/application.
+-----------------------------------------------------------------------------
+*/
+/* -----------------------------------------------------------------------------
+This file contains all styles related to the footer of the site/application.
+-----------------------------------------------------------------------------
+*/
+/* -----------------------------------------------------------------------------
+This file contains all styles related to the button component.
+-----------------------------------------------------------------------------
+*/
+/* -----------------------------------------------------------------------------
+This file contains styles that are specific to the home page.
+ -----------------------------------------------------------------------------
+*/
+/* -----------------------------------------------------------------------------
+ theme this file contains everything related to the default one.
+ -----------------------------------------------------------------------------
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #5a656e;
+}/*# sourceMappingURL=main.css.map */
