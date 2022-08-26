@@ -529,7 +529,7 @@ section {
 .about .image {
   background: url("../img/IMG_0432_1-NL\ Paspoort-35x45\ mm.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 700px;
+  min-height: 750px;
 }
 
 @media (max-width: 991px) {
